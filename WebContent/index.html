@@ -1,0 +1,30 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+</head>
+<body>
+	<div class="jumbotron">  <h1> Employee Query </h1></div>
+
+    <form action = "Servlet" method="get" target="_blank" class="form-group">
+    
+    <div class="checkbox">
+  	<label><input type="checkbox" name = "query1" value="query1"> List department(s) with maximum ratio of average female salaries to average men salaries </label>
+	</div>
+    
+    
+    <input type="checkbox" name = "query2" value="query2"> List manager(s) who holds office for the longest duration <br>
+    
+    <input type="checkbox" name = "query3" value="query3"> For each department, list number of employees born in each decade and their average salaries <br>
+    
+    <input type="checkbox" name = "query4" value="query4"> List employees, who are female, born before Jan 1, 1990, makes more than 80K annually and hold a manager position <br>
+    
+    <input type="checkbox" name = "query5" value="query5"> Find up to 2 degrees of separation between 2 given employees E1 and E2 <br>
+        
+    <input type="text" name = "theQuery">
+    <br>
+    <input type="submit" value ="Submit" name="submit">    
+    </form>
+    </body>
+</html>
